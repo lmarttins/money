@@ -6,10 +6,7 @@ abstract class Money
 {
     protected $amount;
 
-    public function __construct(int $amount)
-    {
-        $this->amount = $amount;
-    }
+    abstract function currency(): string;
 
     public function equals(Money $object): bool
     {
@@ -21,11 +18,11 @@ abstract class Money
 
     public static function dollar(int $amount)
     {
-        return new Dollar($amount);
+        return new Dollar($amount, 'USD');
     }
 
     public static function franc(int $amount)
     {
-        return new Franc($amount);
+        return new Franc($amount, 'CHF');
     }
 }

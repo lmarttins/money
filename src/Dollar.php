@@ -4,9 +4,17 @@ namespace Money;
 
 class Dollar extends Money
 {
-    public function __construct(int $amount)
+    private $currency;
+
+    public function __construct(int $amount, string $currency)
     {
-        parent::__construct($amount);
+        $this->amount   = $amount;
+        $this->currency = $currency;
+    }
+
+    public function currency(): string
+    {
+        return $this->currency;
     }
 
     public function times(int $multiplier): Dollar
