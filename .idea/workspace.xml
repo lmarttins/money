@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e504151-17ce-4598-8a4f-1abbc90af7ea" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Franc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Money.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Dollar.php" afterPath="$PROJECT_DIR$/src/Dollar.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Tests/MoneyTest.php" afterPath="$PROJECT_DIR$/src/Tests/MoneyTest.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,8 +20,8 @@
       <file leaf-file-name="MoneyTest.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Tests/MoneyTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="14" column="58" lean-forward="false" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
+            <state relative-caret-position="162">
+              <caret line="24" column="66" lean-forward="true" selection-start-line="24" selection-start-column="66" selection-end-line="24" selection-end-column="66" />
               <folding>
                 <element signature="e#31#62#0#PHP" expanded="true" />
               </folding>
@@ -25,11 +29,31 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Franc.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Franc.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Dollar.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Dollar.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+            <state relative-caret-position="198">
+              <caret line="11" column="50" lean-forward="false" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Money.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Money.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="11" column="47" lean-forward="true" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -45,6 +69,8 @@
       <list>
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/src/Dollar.php" />
+        <option value="$PROJECT_DIR$/src/Franc.php" />
+        <option value="$PROJECT_DIR$/src/Money.php" />
         <option value="$PROJECT_DIR$/src/Tests/MoneyTest.php" />
       </list>
     </option>
@@ -142,50 +168,50 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1503251286048</updated>
-      <workItem from="1503251287508" duration="4309000" />
+      <workItem from="1503251287508" duration="5972000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Tests - 2017.08.20 at 15h 36m 01s.xml">
+    <history-entry file="Tests - 2017.08.20 at 17h 12m 08s.xml">
       <configuration name="Tests" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="Tests - 2017.08.20 at 15h 38m 56s.xml">
+    <history-entry file="Tests - 2017.08.20 at 17h 12m 28s.xml">
       <configuration name="Tests" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="Tests - 2017.08.20 at 15h 39m 12s.xml">
+    <history-entry file="Tests - 2017.08.20 at 17h 12m 51s.xml">
       <configuration name="Tests" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="Tests - 2017.08.20 at 15h 39m 37s.xml">
+    <history-entry file="Tests - 2017.08.20 at 17h 13m 10s.xml">
       <configuration name="Tests" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="Tests - 2017.08.20 at 15h 40m 37s.xml">
+    <history-entry file="Tests - 2017.08.20 at 17h 15m 07s.xml">
       <configuration name="Tests" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="Tests - 2017.08.20 at 15h 40m 49s.xml">
+    <history-entry file="Tests - 2017.08.20 at 17h 15m 14s.xml">
       <configuration name="Tests" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="Tests - 2017.08.20 at 15h 56m 34s.xml">
+    <history-entry file="Tests - 2017.08.20 at 17h 18m 44s.xml">
       <configuration name="Tests" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="Tests - 2017.08.20 at 15h 56m 47s.xml">
+    <history-entry file="Tests - 2017.08.20 at 17h 18m 59s.xml">
       <configuration name="Tests" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="Tests - 2017.08.20 at 15h 58m 03s.xml">
+    <history-entry file="Tests - 2017.08.20 at 17h 20m 49s.xml">
       <configuration name="Tests" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="Tests - 2017.08.20 at 15h 59m 08s.xml">
+    <history-entry file="Tests - 2017.08.20 at 17h 21m 17s.xml">
       <configuration name="Tests" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4309000" />
+    <option name="totallyTimeSpent" value="5972000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="53" y="-4" width="1313" height="772" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2498096" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2498096" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -225,16 +251,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Dollar.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        <state relative-caret-position="198">
+          <caret line="11" column="50" lean-forward="false" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Franc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Money.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="47" lean-forward="true" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tests/MoneyTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="14" column="58" lean-forward="false" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
+        <state relative-caret-position="162">
+          <caret line="24" column="66" lean-forward="true" selection-start-line="24" selection-start-column="66" selection-end-line="24" selection-end-column="66" />
           <folding>
             <element signature="e#31#62#0#PHP" expanded="true" />
           </folding>
