@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e504151-17ce-4598-8a4f-1abbc90af7ea" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/php-test-framework.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/php.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Dollar.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Tests/MoneyTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Tests/MoneyTest.php" afterPath="$PROJECT_DIR$/src/Tests/MoneyTest.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,8 +16,8 @@
       <file leaf-file-name="MoneyTest.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Tests/MoneyTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+            <state relative-caret-position="161">
+              <caret line="14" column="58" lean-forward="false" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
               <folding>
                 <element signature="e#31#62#0#PHP" expanded="true" />
               </folding>
@@ -148,23 +142,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1503251286048</updated>
-      <workItem from="1503251287508" duration="3965000" />
+      <workItem from="1503251287508" duration="4309000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Tests - 2017.08.20 at 15h 28m 10s.xml">
-      <configuration name="Tests" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Tests - 2017.08.20 at 15h 30m 00s.xml">
-      <configuration name="Tests" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Tests - 2017.08.20 at 15h 30m 17s.xml">
-      <configuration name="Tests" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Tests - 2017.08.20 at 15h 34m 57s.xml">
-      <configuration name="Tests" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
     <history-entry file="Tests - 2017.08.20 at 15h 36m 01s.xml">
       <configuration name="Tests" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
@@ -183,9 +165,21 @@
     <history-entry file="Tests - 2017.08.20 at 15h 40m 49s.xml">
       <configuration name="Tests" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
+    <history-entry file="Tests - 2017.08.20 at 15h 56m 34s.xml">
+      <configuration name="Tests" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Tests - 2017.08.20 at 15h 56m 47s.xml">
+      <configuration name="Tests" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Tests - 2017.08.20 at 15h 58m 03s.xml">
+      <configuration name="Tests" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Tests - 2017.08.20 at 15h 59m 08s.xml">
+      <configuration name="Tests" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3965000" />
+    <option name="totallyTimeSpent" value="4309000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="53" y="-4" width="1313" height="772" extended-state="6" />
@@ -239,8 +233,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tests/MoneyTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+        <state relative-caret-position="161">
+          <caret line="14" column="58" lean-forward="false" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
           <folding>
             <element signature="e#31#62#0#PHP" expanded="true" />
           </folding>
