@@ -2,7 +2,7 @@
 
 namespace Money;
 
-abstract class Money
+class Money
 {
     /**
      * @var int
@@ -28,7 +28,7 @@ abstract class Money
     {
         return (
             $this->amount == $object->amount &&
-            get_class($this) === get_class($object)
+            $this->currency() === $object->currency()
         );
     }
 
@@ -40,21 +40,31 @@ abstract class Money
         return $this->currency;
     }
 
-    /**
-     * @param  int $amount
-     * @return Dollar
-     */
-    public static function dollar(int $amount)
+    public function times(int $multiplier)
     {
-        return new Dollar($amount, 'USD');
+        return new Money($this->amount * $multiplier, $this->currency);
     }
 
     /**
      * @param  int $amount
-     * @return Franc
+     * @return Money
+     */
+    public static function dollar(int $amount)
+    {
+        return new Money($amount, 'USD');
+    }
+
+    /**
+     * @param  int $amount
+     * @return Money
      */
     public static function franc(int $amount)
     {
-        return new Franc($amount, 'CHF');
+        return new Money($amount, 'CHF');
+    }
+
+    public function __toString()
+    {
+        return $this->amount . ' ' . $this->currency;
     }
 }
